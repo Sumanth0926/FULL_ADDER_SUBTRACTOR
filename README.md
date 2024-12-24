@@ -38,6 +38,16 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+FULL ADDER
+
+
+![Screenshot 2024-12-24 180950](https://github.com/user-attachments/assets/c126f18a-c2d0-4395-8046-0c5982cf82f7)
+
+FULL SUBTRACTOR
+
+
+![Screenshot 2024-12-24 180956](https://github.com/user-attachments/assets/b5714c51-d131-4031-aa9f-e316bbc4deb8)
+
 **Procedure**
 
 Write the detailed procedure here
@@ -69,12 +79,30 @@ Write the detailed procedure here
 
 
 **RTL Schematic**
+
+
+FULL ADDER
+
+
 ![Screenshot 2024-11-15 135808](https://github.com/user-attachments/assets/14c0b377-5b66-4f34-b7e2-21b3f7a5092e)
+
+FULL SUBTRACTOR
+
+
 ![Screenshot 2024-11-15 140712](https://github.com/user-attachments/assets/9bf1c529-04ab-4e86-a869-552fd2dd0a7b)
 
 **Timing Waveform**
-![Screenshot 2024-11-15 135909](https://github.com/user-attachments/assets/5990c7a7-c3ae-4109-acc1-839221720e36)
-![min_fa](https://github.com/user-attachments/assets/10280c6e-0ff7-419a-a6d6-b4fd4023eadd)
+
+
+FULL ADDER
+
+
+![Screenshot 2024-12-24 181052](https://github.com/user-attachments/assets/651fa1e7-ad0f-49dc-8107-0ae5ce011ff5)
+
+FULL SUBTRACTOR
+
+
+![Screenshot 2024-12-24 181058](https://github.com/user-attachments/assets/e35e68b2-8946-4239-a10b-f8f430043794)
 
 **Result:**
 
