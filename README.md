@@ -58,23 +58,23 @@ Write the detailed procedure here
  Developed by: POTHU SUMANTH
  RegisterNumber:24000831
  
-      i)HALF ADDER
-      
-      module ha(a,b,sum,carry);
-      input a,b;
-      output sum,carry;
-      assign sum= (a ^ b);
-      assign carry= ( a & b);
-      endmodule
+   i)FULL ADDER
 
-      ii)HALF SUBTRACTOR
-      
-      module hs(a,b,difference,borrow);
-      input a,b;
-      output difference,borrow;
-      assign difference= (a ^ b);
-      assign borrow= ( ~a & b);
-      endmodule
+module fa(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum=( (a ^ b)^cin);
+assign carry= ( (a & b)| ( cin &(a ^ b )));
+endmodule
+
+ii)FULL SUBTRACTOR
+
+module fs(a,b,bin,difference,borrow);
+input a,b,bin;
+output difference,borrow;
+assign difference= ( (a ^ b)^bin);
+assign borrow= ( ( ~a & b)| ( bin & (~(a ^ b ))));
+endmodule
 
 
 
